@@ -11,6 +11,22 @@ public class Forex {
 	//name
 	private String name;
 	
+	
+	//Constructors ("a method that lets you define how to initialize the class
+	public Forex() {
+		
+		
+	}
+	
+	
+	//Overloading the constructor(create another constructor  with the same exact name. ) so that it generates a set data.
+	public Forex(String name, double price) {
+		this.name = name;
+		this.price = price;
+	}
+	
+	
+	
 	// once turned private must use getters and setters to change variable(pairs,price,name)
 	
 	public String getName() {

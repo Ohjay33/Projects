@@ -3,23 +3,39 @@ package com.ohjay.Stock_Portfolio;
 import java.util.ArrayList;
 
 public class Portfolio {
-	//name of owner
 	
+	//name of owner
 	private String owner;
 	
 	//totalBalance
-	
 	private double totalBalance;
 	
 	//isRisky
 	private boolean isRisky;
 	
 	//theList
-	private ArrayList<Forex> forexList;
-	private ArrayList<Stocks> stockList;
+	private ArrayList<Forex> forexList = new ArrayList<Forex>();
+	private ArrayList<Stocks> stockList = new ArrayList<Stocks>();
 	
 	
 	
+	
+	//Constructors ("a method that lets you define how to initialize the class
+		public Portfolio() {
+			
+		}
+		
+		
+		
+		//Overloading the constructor(create another constructor  with the same exact name. ) so that it generates a set data.
+		public Portfolio(String owner, double totalBalance) {
+			this.owner = owner;
+			this.totalBalance = totalBalance;
+		}
+		
+	
+	
+	//Generate getters and Setters after top
 	
 	public String getOwner() {
 		return owner;
@@ -51,6 +67,11 @@ public class Portfolio {
 	public void setStockList(ArrayList<Stocks> stockList) {
 		this.stockList = stockList;
 	}
+	
+	public void addStock(Stocks stockObj) {
+		this.stockList.add(stockObj);
+	}
+	
 	
 	
 	
