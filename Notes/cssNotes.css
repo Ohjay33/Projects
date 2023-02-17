@@ -1,0 +1,14 @@
+syntax
+
+text-align
+font
+padding
+margin 
+border
+link
+lorem#
+div
+<div class= "name>"     ------->giving dive classes<--------
+flex {side by side, left to right}
+justify-content {used in flex, used to change width }
+align items {for moving items in other  directions of flex-direction: ;}

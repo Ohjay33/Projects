@@ -16,9 +16,7 @@
             <div class="container">
 
                 <h1>Hello to all the game freaks out there!!</h1>
-                <div >
-
-                </div>
+                
                 <div>
                     <form action="" method="post"></form>
                     <label for="">Name</label>
