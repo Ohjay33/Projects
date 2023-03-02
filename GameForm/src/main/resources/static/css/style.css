@@ -3,3 +3,20 @@ h1{
     background-color: aquamarine;
     font-style: oblique;
 }
+
+.Form{
+    /* display: flex; */
+    justify-content: space-between;
+    margin-top: 6px;
+    
+
+}
+
+.container{
+    background-color: aquamarine;
+    height: 500px;
+}
+
+.text{
+    margin-top: 10px;
+}
