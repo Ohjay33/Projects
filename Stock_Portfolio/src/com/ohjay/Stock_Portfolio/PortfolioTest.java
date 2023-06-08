@@ -1,7 +1,5 @@
 package com.ohjay.Stock_Portfolio;
 
-import java.util.ArrayList;
-
 public class PortfolioTest {
 
 	public static void main(String[] args) {

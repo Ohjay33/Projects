@@ -1,0 +1,104 @@
+body {
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/211115143331-marijuana-joint-stock.jpg?q=x_0,y_130,h_1406,w_2500,c_crop/h_720,w_1280);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.established {
+    font-style: italic;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top{
+    width: 75px;
+    height: 75px;
+}
+
+hr {
+    height: 2px;
+    background-color: green;
+    border-color: rgba(0, 155, 62, 0.632);
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+h1,
+h2 {
+    font-family: Impact, serif;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.strain,
+.flavor {
+    text-align: left;
+    width: 70%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(13, 103, 33);
+}
+
+a:active {
+    color: brown;
+}
