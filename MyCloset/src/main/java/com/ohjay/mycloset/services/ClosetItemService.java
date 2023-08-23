@@ -38,5 +38,20 @@ public class ClosetItemService {
     			//find a menu item by the given id, if not found, return null (or else null)
     	return this.closetRepo.findById(id).orElse(null);
     }
+    
+    //update a closet item given an object and it will save that object to the db
+    public ClosetItem updateItem(ClosetItem closetItem) {
+    		return this.closetRepo.save(closetItem);
+    }
+    
+    //delete a closetitem by its id
+    public void deleteItem(Long id) {
+    		//service accesses the repository to delete by the given id
+    		this.closetRepo.deleteById(id);
+    }
+    
+    
+    
+    
 	
 }
