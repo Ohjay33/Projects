@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(211, 106, 174);
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+p {
+    color: darkgray;
+}
+
+.mainBox {
+    /* margin-left: 350px; */
+    text-align: center;
+    margin-top: 25px;
+    background-color: rgb(211, 106, 174);
+}
+
+form {
+    font-size: 50px;
+    /* background-color: brown; */
+}
+
+.info{
+    color: antiquewhite;
+}
+
+.top_btn {
+    width: 546px;
+    height: 47px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    
+
+}
+
+.top_btn:hover{
+    color: aliceblue;
+}
+
+#bottom_btn {
+    width: 546px;
+    height: 47px;
+    border-radius: 10px;
+    background-color: chartreuse;
+}
+
+#firstName {
+    width: 401px;
+    height: 47px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#lastName {
+    width: 401px;
+    height: 47px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#email {
+    width: 401px;
+    height: 47px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#password {
+    height: 47px;
+    width: 407px;
+    border-radius: 5px;
+    font-weight: bolder;
+
+}
+
+#lastline {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.whitepaper {
+    background-color: white;
+    width: 606px;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* margin-left: 445px; */
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+a{
+    color: red;
+}
+
