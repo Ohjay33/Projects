@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: antiquewhite;
+}
+
+.rightSide{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+li{
+    display: inline-block;
+    justify-content: space-between;
+}

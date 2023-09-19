@@ -32,6 +32,8 @@ form {
     border-radius: 10px;
     background-color: blueviolet;
     color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
     
 
 }
@@ -45,6 +47,7 @@ form {
     height: 47px;
     border-radius: 10px;
     background-color: chartreuse;
+    cursor: pointer;
 }
 
 #firstName {
