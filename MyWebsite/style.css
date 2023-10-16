@@ -3,23 +3,247 @@ body{
 }
 
 
+
+.backgroundpic{
+    display: inline-block;
+    width:1511px;
+    height: 551px;
+    background-position: 100%;
+}
+
+
 .navbar{
     display: flex;
-    justify-content: space-between;
-    color: antiquewhite;
+    justify-content: center;
+    /* color: antiquewhite; */
+    align-items: center;
+    display: inline-block;
+    
 }
+
+.navbar li:hover{
+    color: red;
+
+}
+
+.tabs{
+    justify-content: center;
+    align-items: center;
+    display:inline-block;
+    /* margin-left: 352px; */
+    padding: 20px;
+    margin-left: 29%;
+    
+}
+
+.project1{
+    background-color: rgb(40, 36, 28);
+    display: inline-block;
+    /* height: 100px; */
+    padding: 20px;
+}
+
+.home-tab{
+    font-size: larger;
+    color: white;
+}
+
+.about{
+/* font-size: larger; */
+background-color: antiquewhite;
+}
+
+#about-title{
+    color: black;
+}
+
+.about-tab{
+    font-size: larger;
+    color: white;
+
+}
+
+
+.resume-tab{
+font-size: larger;
+color: white;
+}
+
+.portfolio-tab{
+font-size: larger;
+color: white;
+}
+
+.contact-tab{
+font-size: larger;
+color: white;
+
+}
+
+.github-logo{
+width: 50px;
+height: 50px;
+}
+
+
+
+
+
 
 .rightSide{
     width: 100%;
 }
 
 ul{
-    display: flex;
-    justify-content: space-evenly;
-    width: 75%;
+    color: black;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 75%; */
+    /* margin-left: 29%; */
 }
 
 li{
     display: inline-block;
     justify-content: space-between;
+    margin: 20px;
+    font-size: 23px;
+    color: black;
+    padding: 15px;
 }
+
+h1{
+    color: aliceblue;
+    font-size: 45px;
+    /* display: inline-block; */
+/* align-items: center; */
+}
+
+h2{
+    color: white;
+    font-size: 4rem;
+    /* display: inline-block; */
+}
+
+.project-section-title{
+    color: rgb(15, 17, 18);
+    font-size: 34px;
+}
+
+.section-title{
+    text-align: center;
+}
+
+h3{
+    color: red;
+}
+
+h4{
+    color: red;
+}
+
+em{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+.nametag{
+    /* background-color: aquamarine; */
+}
+
+.activator{
+    width: fit-content;
+    height:fit-content;
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    /* padding: 55px; */
+    /* margin-top: 37px; */
+    color: blue;
+}
+
+.card-content {
+    display: flex;
+    display: inline-block;
+    height: 100px;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+#resume{
+    width: 400px;
+    height: 400px;
+
+}
+
+.info{
+    /* background-color: gray; */
+    display: flex;
+    height: 371px;
+}
+
+.mypic{
+    display: flex;
+    background-size: cover;
+    min-height: 351px;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: stretch;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 315px;
+    /* height: 200px; */
+}
+
+.toppic{
+    display: flex;
+    display: inline-block;
+    justify-content: space-evenly;
+    
+}
+#projheader{
+    color: aqua;
+}
+
+.image2{
+width:150px;
+height:150px;
+}
+.row{
+    display: flex;
+}
+.infocontent{
+    display: flex;
+}
+
+.aboutmeinfo{
+    display: flex;
+}
+
+.resume-title{
+    color: white;
+}
+
+
+.row{
+    background-color: orange;
+    justify-content: space-between;
+}
+
+
+
+
+
