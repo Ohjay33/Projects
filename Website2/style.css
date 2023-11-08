@@ -1,0 +1,23 @@
+.container{
+    background-color: red;
+    height: 900px;
+}
+
+.nav{
+    background-color: blue;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navleft{
+    background-color: blueviolet;
+    height: 40px;
+    width: 200px;
+}
+
+.navright{
+    background-color: black;
+    height: 40px;
+    width: 200px;
+}

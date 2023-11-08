@@ -55,6 +55,7 @@ background-color: antiquewhite;
 
 #about-title{
     color: black;
+    padding-top: 30px;
 }
 
 .about-tab{
@@ -110,6 +111,7 @@ li{
     font-size: 23px;
     color: black;
     padding: 15px;
+    
 }
 
 h1{
@@ -147,7 +149,7 @@ em{
 }
 
 p{
-    color: blue;
+    /* color: blue; */
 }
 
 .nametag{
