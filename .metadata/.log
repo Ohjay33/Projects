@@ -9221,3 +9221,6 @@ java.lang.IllegalStateException: Preference node "org.eclipse.wst.validation" ha
 	at org.eclipse.php.internal.core.libfolders.AutoDetectLibraryFolderJob.runInWorkspace(AutoDetectLibraryFolderJob.java:67)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2023-11-29 00:24:28.218
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

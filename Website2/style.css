@@ -75,8 +75,16 @@ font-family: "Audiowide", sans-serif;}
     height: 441px;
     width: 356px;
     padding: 10px;
+    margin-left: 50px;
+    border-radius: 225px;
  }
 
  .aboutme{
     display: flex;
+    background-color: white;
+ }
+
+ .right > p{
+    justify-content: center;
+    font-size: xx-large;
  }
